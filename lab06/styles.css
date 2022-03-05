@@ -1,0 +1,11 @@
+body {font-family:Georgia, 'Times New Roman', Times, serif;}
+
+
+h1,h2,h3 {color:deeppink;}
+p {color:orange;}
+
+.odd {background-color: lightblue;}
+.even {background-color: lightgoldenrodyellow;}
+
+h1 {font-size :3em}
+h2 {font-size :1em}
