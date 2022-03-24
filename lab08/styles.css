@@ -1,0 +1,20 @@
+body {font-family:Georgia, 'Times New Roman', Times, serif; color: #1B1A17;
+    background-color: #FDEFF4;}
+
+nav {background-color: #e3feff; padding: 10px; margin-bottom: 30px;}
+
+nav a {color:#960076}
+
+nav a:hover{background-color: #f5d0ea;}
+
+h1,h2,h3 {color:deeppink;}
+
+p {color: #d17702;}
+
+a {color: #4ebdfc}
+
+h1 {font-size :3em}
+h2 {font-size :1em}
+
+.quote {float:right;}
+.img1 {float:left;}
