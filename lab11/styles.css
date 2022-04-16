@@ -7,7 +7,7 @@ nav a {color:#993333}
 
 nav a:hover{background-color: #ff0066;}
 
-h1,h2,h3, div a {color:#000099;}
+h1,h2,h3, div a, label {color:#000099;}
 
 .myskill {text-align: center;}
 
