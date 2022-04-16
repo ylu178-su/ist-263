@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Contact</title>  
+    <style>
+        table,th,td {border: 1em solid black;}
+        .info {display: flex;padding: 20px;background-color: #e3feff; border-radius: 2em;margin:2em;flex-wrap: wrap;}
+        .row1, .row2 {margin: 0.62em;}
+        .row1{flex:1;margin-top: auto;margin-left: 3em;}
+        .row2{flex:3;margin-top: auto;}
+
+        .moreinfo{display:flex;padding:20px;
+            background-color: #e3feff; 
+            border-radius:2em; 
+            margin:2em;
+            flex-wrap: wrap;
+        }
+
+        .info, .moreinfo {flex:1;}
+
+        .form, .map {margin: 10px;}
+        .form{flex:1;margin-left: 3em;}
+        .map{flex:3;}
+
+    </style>  
+    <link rel="stylesheet" href = "styles.css">
+
+</head>
+
+<body>
+    <nav>
+        <a href="#content" id ="skip">Skip to Content</a>
+        <a href = "index.html">Home<span>|</span></a>
+        <div><br></div>
+        <a href = "skills.html">Skills<span>|</span></a>
+        <div><br></div>
+        <a href = "contact.html">Contact</a>
+    </nav>
+    
+    <section id = "content">
+    <h1>Contact Information</h1>
+
+
+    <div class="info">
+        <div class = "row1">
+            <h2>Address</h2>
+            <div><p>900 South Crouse Ave</p></div>
+            <div><p>Syracuse, NY, 13210</p></div>
+        </div>
+
+        <div class="row2">
+            <div><br><br><a href ="https://www.linkedin.com/">Linknedin Official Website</a></div>
+            <div><p><a href ="mailto:ylu178@syr.edu">Yongchen Lu's Email</a></p></div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+    <h1>Contact Form</h1>
+    <div class="moreinfo">
+
+        <div class="form">
+            <h2>Your name</h2>
+            <form action="#" method = "post">
+                <label for = "fullname"></label>
+                <input type = "text" name="fullname" id="fullname"><br>
+            
+            <h2>Reason for contact</h2>
+            <textarea name = "reason" id ="reason"></textarea><br>
+
+            <h2>Comments</h2>
+            <textarea name = "comments" id ="comments"></textarea><br>
+
+            <br><input type="submit" value="send">
+            </form>
+        </div>
+        
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.1346301774706!2d-76.13423688452212!3d43.03859877914711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fd80b782d%3A0x475e026bba32d92!2sLyman%20Hall%2C%20900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1szh-TW!2sus!4v1644511888161!5m2!1szh-TW!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+    </section>
+
+</body>
+
+</html>
