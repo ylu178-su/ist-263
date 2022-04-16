@@ -1,13 +1,13 @@
 body {font-family:Georgia, 'Times New Roman', Times, serif; color: #1B1A17;
     background-color: white;}
 
-nav {background-color: #b3ffe0; padding: 10px; margin-bottom: 30px;}
+nav {background-color: #ccffcc; padding: 10px; margin-bottom: 30px;}
 
 nav a {color:#993333}
 
 nav a:hover{background-color: #ff0066;}
 
-h1,h2,h3, div a {color:deeppink;}
+h1,h2,h3, div a {color:#000099;}
 
 .myskill {text-align: center;}
 
@@ -25,7 +25,7 @@ h2, nav, p, div, a, img {font-size :1em}
 
 .mainskill {display: flex; justify-content: space-between;width: 75%; margin-right: 40px; margin-top: auto; margin-bottom: auto;margin-left: 80px;}
 
-.otherskill {padding: 20px;background-color: #b3ffe0; border-radius: 2em; margin-left: auto; width: 25%;margin-right: 50px;}
+.otherskill {padding: 20px;background-color: #ccffcc; border-radius: 2em; margin-left: auto; width: 25%;margin-right: 50px;}
 
 .info {display: flex; width: 65%; margin-left: 80px;}
 
@@ -54,13 +54,13 @@ h2, nav, p, div, a, img {font-size :1em}
 
 
 table,th,td {border: 1em solid black;}
-.info {display: flex;padding: 20px;background-color: #b3ffe0; border-radius: 2em;margin:2em;flex-wrap: wrap;}
+.info {display: flex;padding: 20px;background-color: #ccffcc; border-radius: 2em;margin:2em;flex-wrap: wrap;}
 .row1, .row2 {margin: 0.62em;}
 .row1{flex:1;margin-top: auto;margin-left: 3em;}
 .row2{flex:3;margin-top: auto;}
 
 .moreinfo{display:flex;padding:20px;
-    background-color: #b3ffe0; 
+    background-color: #ccffcc; 
     border-radius:2em; 
     margin:2em;
     flex-wrap: wrap;
