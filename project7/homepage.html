@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Elements of Good Photo</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" type="image/x-icon" href="project_img/icons8-camera-96.png">
+</head>
+<body>
+    <div class="wrap">
+               <div class="menu-handler" onclick="menuSub()">
+            <img src="project_img/icons8-menu-96.png">
+        </div>
+            
+    </div>
+    <nav class="menu">
+        <a href="homepage.html">KEY ELEMENTS OF GOOD PHOTO</a>
+        <a href="page2.html">THREE BASIC ELEMENTS OF EXPOSURE</a>
+        <a href="page3.html">FOUR SHOOTING MODES IN MIRRORLESS CAMERA</a>
+    </nav>  
+    <h1>
+        The Key Elements of Good Photo</h1>
+    <p>
+        With the improvement of mobile phone penetration. We experience a lot of photos
+        on the internet. Today, everyone can shoot a photo, but what will let your photo
+        stand out? What will make you a good photographer? There are three basic principles
+        of a good photo:<br>
+    </p>
+    <ul>
+        <li>A good photo should have a distinct subject, that the subject is very clear and
+            unambiguous to the viewer. It can a person, a group of people, a thing, a group
+            of things, or a story.</li>
+        <li>The viewer’s attention should be directed to the subject of the photo. The viewer
+            should able to identify the subject at first glance.</li>
+        <li>The frame of the photo should be concise. That anything will distract viewer’s attention
+            toward the subject should be eliminated.</li>
+    </ul>
+    <br>
+    <p>
+        When you press your shutter, you should always remind you three questions:</p>
+    <br>
+    <ul>
+        <li>What subject am I presenting?</li>
+        <li>How could I attract viewer’s attention toward the subject?</li>
+        <li>Is there anything will distract viewer’s attention toward the subject?</li>
+    </ul>
+    <div class="imgflex">
+        <img src="project_img/images/1.jpg" alt="west lake 1" class="img">
+        <img src="project_img/images/12.jpg" alt="west lake 4" class="img">
+    </div>
+    <div class="imgflex">
+        <img src="project_img/images/11.jpg" alt="west lake 3" class="img">
+        <img src="project_img/images/2.jpg" alt="west lake 2" class="img">
+    </div>
+    <br>
+    <br>
+    <hr>
+    <footer>
+    By Yongchen Lu <div class="quote">“Taking an image, freezing a moment, reveals how rich reality truly is.”
+        — Anonymous</div>
+</footer>
+
+<script>
+    navItem =0;
+    function  menuSub  (){
+        if(navItem == 0) {
+            document.getElementById('html').classList.add('menuOpen')
+            navItem = 1;
+        } else {
+            document.getElementById('html').classList.remove('menuOpen')
+            navItem = 0;
+        }
+    }
+    
+</script>
+</body>
+</html>
