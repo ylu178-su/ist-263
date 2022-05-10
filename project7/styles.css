@@ -50,7 +50,7 @@ p,ul {
 footer{ background:#000; text-align:center; color:#fff; padding:1.8em;font-size: 1.2em;  }
 .imgflex{ display: flex; margin-bottom:30px; margin-top:30px;}
 .imgflex img{  width:46%; margin-left:2%; margin-right:2%;  }
-h1{ text-align:center; font-size:2em; margin-bottom:1.5em; }
+h1{ text-align:center; font-size:2em; margin-bottom:1.3em; }
 h2{ text-align:center; font-size:1.7em; margin-bottom:1em; }
 ul li{ background:rgba(0,0,0,0.5); color:#fff; margin-bottom:10px; line-height:30px; padding:0px 10px; }
 p + ul{ margin-top:20px; }
@@ -115,7 +115,7 @@ table td{ border:1px solid #000; text-align:center; line-height:2; }
 
         text-align: center;
         width: 100%;
-        font-size: 2em;
+        font-size: 1.5em;
         margin-top: 2em;
     }
     body {margin-top: 5em;}
