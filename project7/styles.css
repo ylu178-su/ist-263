@@ -44,7 +44,7 @@ center{
     color: rgb(35, 35, 35);
     margin: 0;
     line-height: 2em;}
-footer{ background:#000; text-align:center; color:#fff; padding:1.8em;font-size: 1.2em  }
+footer{ background:#000; text-align:center; color:#fff; padding:1.8em;font-size: 1.2em;  }
 .imgflex{ display: flex; margin-bottom:30px; margin-top:30px;}
 .imgflex img{  width:46%; margin-left:2%; margin-right:2%;  }
 h1{ text-align:center; font-size:2em; margin-bottom:1.5em; }
