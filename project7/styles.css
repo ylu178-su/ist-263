@@ -1,0 +1,120 @@
+﻿*{ margin:0px; padding:0px; }
+body 
+{
+    max-width:1200px; 
+    margin:0 auto;
+    font-family: 'kaiti', sans-serif;  
+    background: #d1e7d2;
+}
+a {
+    color: #1B242F;
+    text-decoration: none; 
+    transition: 0.5s all;
+}
+a:hover,
+a.active {
+    color: #e87204;
+    text-decoration: underline  
+    
+}
+
+ul,li {
+    list-style: none;
+}
+img{ max-width:100%; display:block; }
+nav { padding:40px 0px; text-align:center; margin-bottom: 1em;}
+nav a { 
+    color: rgb(35, 35, 35);
+    font-size: 1.2em;
+    font-weight: 500;  
+    margin-right:3em;
+}
+p,ul {
+    font-size: 1.2em;
+    color: rgb(35, 35, 35);
+    margin: 0;
+    line-height: 2em;
+    text-indent:2em;
+    width:70%;
+    margin:0 auto;
+}
+center{ 
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(35, 35, 35);
+    margin: 0;
+    line-height: 2em;}
+footer{ background:#000; text-align:center; color:#fff; padding:1.8em;font-size: 1.2em  }
+.imgflex{ display: flex; margin-bottom:30px; margin-top:30px;}
+.imgflex img{  width:46%; margin-left:2%; margin-right:2%;  }
+h1{ text-align:center; font-size:2em; margin-bottom:1.5em; }
+h2{ text-align:center; font-size:1.7em; margin-bottom:1em; }
+ul li{ background:rgba(0,0,0,0.5); color:#fff; margin-bottom:10px; line-height:30px; padding:0px 10px; }
+p + ul{ margin-top:20px; }
+.img { margin-top:20px; width:48%; margin:20px auto 0px; } 
+table{ width:70%; border-collapse:collapse; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto; }
+table td{ border:1px solid #000; text-align:center; line-height:2; }  
+.wrap{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background:rgba(255,255,255,0.8);
+    left: 0;
+    display: none;
+}
+.wrap .menu-handler{
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+  
+}
+.wrap img{
+    width: 100%;
+}
+
+.aperature{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aperature div{
+    width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {padding:1.2em;}
+    .wrap{
+        display: block;
+    }
+    .img {width:88%;} 
+    body {padding:0px 20px;}
+    table{width:100%;}
+    p,ul { 
+    width:100%; 
+    }
+    .menu{
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        right: 0px;
+        top: 3em;
+        width: 100%;
+        background-color: #FFFFFF;
+        transform: translateX(-100%);
+        transition: all .5s;
+        }
+
+    .menuOpen .menu{
+        transform: translateX(0);
+    }
+    .menu a{
+        display: block;
+
+        text-align: center;
+        width: 100%;
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    body {margin-top: 5em;}
+
+}
